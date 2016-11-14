@@ -7,8 +7,8 @@
     <ProjectGuid>{81699205-C591-4928-8A60-3B0E887A0BAF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CodeFights</RootNamespace>
-    <AssemblyName>CodeFights</AssemblyName>
+    <RootNamespace>CodeFights.CSharp</RootNamespace>
+    <AssemblyName>CodeFights.CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClosestSequence.cs" />
+    <Compile Include="Encode.cs" />
+    <Compile Include="NumberOfLettersSolution.cs" />
+    <Compile Include="PrimeDigits.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
