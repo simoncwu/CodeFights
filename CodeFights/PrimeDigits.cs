@@ -25,7 +25,7 @@ namespace CodeFights.CSharp
     class PrimeDigits
     {
         /// <summary>
-        /// 
+        /// Calculates the total number of primes up to (and including) a specific number whose digits are all primes.
         /// </summary>
         /// <param name="N">The ending prime number. 0 ≤ N ≤ 1000000.</param>
         /// <returns>The number of primes less than or equal to <paramref name="N"/> and comprising of prime digits.</returns>
@@ -42,17 +42,27 @@ namespace CodeFights.CSharp
             return ct;
         }
 
+        /// <summary>
+        /// Determines whether or not a number's individual digits are all prime numbers.
+        /// </summary>
+        /// <param name="n">The number to check.</param>
+        /// <returns><c>true</c> if <paramref name="n"/>'s individual digits are all prime numbers; otherwise, <c>false</c>.</returns>
         bool IsPrimeDigits(int n)
         {
             foreach (char c in n.ToString())
             {
-                // more efficient to convert and check for primality simultaneously
+                // more efficient to convert and check each digit for primality simultaneously
                 if (!IsPrime(c - '0'))
                     return false;
             }
             return true;
         }
 
+        /// <summary>
+        /// Determines whether or not a number is prime.
+        /// </summary>
+        /// <param name="n">The number to check.</param>
+        /// <returns><c>true</c> if <paramref name="n"/> is prime; otherwise, <c>false</c>.</returns>
         bool IsPrime(int n)
         {
             if (n < 2) return false;

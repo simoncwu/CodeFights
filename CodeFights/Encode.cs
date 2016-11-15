@@ -23,10 +23,10 @@ namespace CodeFights.CSharp
     class Encode
     {
         /// <summary>
-        /// 
+        /// Encodes a string using run-length encoding (RLE).
         /// </summary>
         /// <param name="s">A string consisting of lowercase English letters. 1 ≤ s.length ≤ 10000.</param>
-        /// <returns></returns>
+        /// <returns>The encoded result.</returns>
         string encode(string s)
         {
             StringBuilder sb = new StringBuilder();

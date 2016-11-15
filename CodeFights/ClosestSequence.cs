@@ -27,7 +27,7 @@ namespace CodeFights.CSharp
     class ClosestSequence
     {
         /// <summary>
-        /// 
+        /// Finds the minimal sum of the absolute differences between the elements of two sequences.
         /// </summary>
         /// <param name="a">The first sequence to compare. 3 ≤ a.length ≤ 1000, -1000 ≤ a[i] ≤ 1000.</param>
         /// <param name="b">The second sequence to compare. a.length ≤ b.length ≤ 1000, -1000 ≤ b[i] ≤ 1000.</param>
