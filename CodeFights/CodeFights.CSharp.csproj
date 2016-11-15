@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ClosestSequence.cs" />
     <Compile Include="Encode.cs" />
+    <Compile Include="MultiFactorial.cs" />
     <Compile Include="NumberOfLettersSolution.cs" />
     <Compile Include="PrimeDigits.cs" />
     <Compile Include="Program.cs" />
