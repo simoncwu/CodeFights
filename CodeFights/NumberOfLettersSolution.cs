@@ -33,7 +33,7 @@ namespace CodeFights.CSharp
     class NumberOfLettersSolution
     {
         /// <summary>
-        /// 
+        /// Finds the number of steps required to convert a number to one that has 4 letters in its English word form.
         /// </summary>
         /// <param name="n">The starting number. 0 < n < 1000000000.</param>
         /// <returns>The number of steps taken to reach 4 from n.</returns>
@@ -42,51 +42,46 @@ namespace CodeFights.CSharp
             int count = 0;
             while (n != 4)
             {
-                n = ToWords(n).Length;
+                n = ToWords(n.ToString()).Length;
                 count++;
             }
             return count;
         }
 
-        string ToWords(int n)
+        /// <summary>
+        /// Converts a number to its English word representation (letters only).
+        /// </summary>
+        /// <param name="n">The number to convert.</param>
+        /// <returns>The <see cref="String"/> representation of <paramref name="n"/> spelled out in English letters.</returns>
+        string ToWords(string n)
         {
-            return ToWords(n.ToString());
-        }
-
-        string ToWords(string digits)
-        {
-            // trim leading 0s
-            digits = digits.TrimStart('0');
-            if (string.IsNullOrEmpty(digits))
-                return string.Empty;
-
+            // ignore leading 0s
+            n = n.TrimStart('0');
             StringBuilder sb = new StringBuilder();
             // millions
-            if (digits.Length > 6)
+            if (n.Length > 6)
             {
-                int sep = digits.Length - 6;
-                BuildGroup(digits, sb, sep, "million");
+                int sep = n.Length - 6;
+                AppendDigitGroupWords(n, sb, sep, "million");
             }
-
             // thousands
-            else if (digits.Length > 3)
+            else if (n.Length > 3)
             {
-                int sep = digits.Length - 3;
-                BuildGroup(digits, sb, sep, "thousand");
+                int sep = n.Length - 3;
+                AppendDigitGroupWords(n, sb, sep, "thousand");
             }
-
             // hundreds
-            else if (digits.Length > 2)
+            else if (n.Length > 2)
             {
-                BuildGroup(digits, sb, 1, "hundred");
+                AppendDigitGroupWords(n, sb, 1, "hundred");
             }
-
-            else if (digits.Length > 1)
+            else if (n.Length > 1)
             {
-                if (digits[0] == '1')
+                // teens
+                if (n[0] == '1')
                 {
                     string teen = string.Empty;
-                    switch (digits[1])
+                    switch (n[1])
                     {
                         case '0':
                             teen = "ten";
@@ -121,10 +116,11 @@ namespace CodeFights.CSharp
                     }
                     sb.Append(teen);
                 }
-                else if (digits[0] != '0')
+                // tens
+                else
                 {
                     string tens = string.Empty;
-                    switch (digits[0])
+                    switch (n[0])
                     {
                         case '2':
                             tens = "twenty";
@@ -152,30 +148,43 @@ namespace CodeFights.CSharp
                             break;
                     }
                     sb.Append(tens);
-                    sb.Append(DigitWord(digits[1]));
+                    sb.Append(DigitWord(n[1]));
                 }
             }
-            else
+            // singles
+            else if (n.Length > 0)
             {
-                sb.Append(DigitWord(digits[0]));
+                sb.Append(DigitWord(n[0]));
             }
             return sb.ToString();
         }
 
-        void BuildGroup(string digits, StringBuilder sb, int cutoff, string groupWord)
+        /// <summary>
+        /// Appends the English word representation of a digit group to a <see cref="StringBuilder"/>, as well as subsequent less significant digit groups.
+        /// </summary>
+        /// <param name="n">The number to convert.</param>
+        /// <param name="sb">The <see cref="StringBuilder"/> to append to.</param>
+        /// <param name="cutoff">The ending index of the digit group (exclusive).</param>
+        /// <param name="groupWord">The English word for the digit group.</param>
+        void AppendDigitGroupWords(string n, StringBuilder sb, int cutoff, string groupWord)
         {
-            string grp = ToWords(digits.Substring(0, cutoff));
+            string grp = ToWords(n.Substring(0, cutoff));
             if (!string.IsNullOrEmpty(grp))
             {
                 sb.Append(grp);
                 sb.Append(groupWord);
             }
-            sb.Append(ToWords(digits.Substring(cutoff)));
+            sb.Append(ToWords(n.Substring(cutoff)));
         }
 
-        string DigitWord(char c)
+        /// <summary>
+        /// Converts a numeric digit to its English word representation.
+        /// </summary>
+        /// <param name="d">The digit to convert.</param>
+        /// <returns>The English word for digit <paramref name="d"/>.</returns>
+        string DigitWord(char d)
         {
-            switch (c)
+            switch (d)
             {
                 case '1':
                     return "one";
