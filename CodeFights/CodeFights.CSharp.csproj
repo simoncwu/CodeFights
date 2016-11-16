@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClosestSequence.cs" />
+    <Compile Include="DeterminantZero.cs" />
     <Compile Include="Encode.cs" />
     <Compile Include="MultiFactorial.cs" />
     <Compile Include="NumberOfLettersSolution.cs" />
