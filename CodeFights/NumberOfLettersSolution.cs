@@ -99,7 +99,7 @@ namespace CodeFights.CSharp
                             teen = "fourteen";
                             break;
                         case '5':
-                            teen = "fifteeen";
+                            teen = "fifteen";
                             break;
                         case '6':
                             teen = "sixteen";
