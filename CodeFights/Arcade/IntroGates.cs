@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace CodeFights.CSharp.Arcade
 {
     /// <summary>
+    /// Solutions for CodeFights Arcade level Intro Gates: 
     /// https://codefights.com/arcade/code-arcade/intro-gates
     /// </summary>
     class IntroGates
