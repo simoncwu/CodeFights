@@ -46,6 +46,7 @@
     <Compile Include="Arcade\AtTheCrossroads.cs" />
     <Compile Include="Arcade\IntroGates.cs" />
     <Compile Include="Challenges\Cardinal.cs" />
+    <Compile Include="Challenges\Wire.cs" />
     <Compile Include="ClosestSequence.cs" />
     <Compile Include="DeterminantZero.cs" />
     <Compile Include="Encode.cs" />
