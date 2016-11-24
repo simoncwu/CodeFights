@@ -45,7 +45,12 @@
   <ItemGroup>
     <Compile Include="Arcade\AtTheCrossroads.cs" />
     <Compile Include="Arcade\IntroGates.cs" />
+    <Compile Include="Challenges\BitWork.cs" />
+    <Compile Include="Challenges\BouncyBall.cs" />
     <Compile Include="Challenges\Cardinal.cs" />
+    <Compile Include="Challenges\FillTemplate.cs" />
+    <Compile Include="Challenges\MaxLCM.cs" />
+    <Compile Include="Challenges\SumDigitalRootFactor.cs" />
     <Compile Include="Challenges\Wire.cs" />
     <Compile Include="ClosestSequence.cs" />
     <Compile Include="DeterminantZero.cs" />
