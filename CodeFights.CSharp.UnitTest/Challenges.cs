@@ -192,5 +192,82 @@ namespace CodeFights.CSharp.UnitTest
             Assert.AreEqual(148, b.bitWork("255"));
             Assert.AreEqual(51, b.bitWork("1"));
         }
+
+        [TestMethod]
+        public void Alpha3()
+        {
+            var a = new Alpha3();
+            Assert.AreEqual("123", a.alpha3("abc"));
+            Assert.AreEqual("124", a.alpha3("abd"));
+            Assert.AreEqual("432", a.alpha3("bcd"));
+            Assert.AreEqual("345", a.alpha3("cde"));
+            Assert.AreEqual("98", a.alpha3("hij"));
+            Assert.AreEqual("866", a.alpha3("zfr"));
+            Assert.AreEqual("0", a.alpha3("jtj"));
+            Assert.AreEqual("7777498096857450", a.alpha3("Longer string!!!"));
+        }
+
+        [TestMethod]
+        public void MediaUrl()
+        {
+            var m = new MediaUrl();
+            var e = new[] { "albinutte", "gallery", "*" };
+            var a = m.mediaUrl("https://media.codefights.com/Albinutte");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new[] { "albinutte", "gallery", "video" };
+            a = m.mediaUrl("http://media.codefights.com/Albinutte/date/video");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new[] { "albinutte", "details", "2016-10-11/15:14:39" };
+            a = m.mediaUrl("https://media.codefights.com/Albinutte/date/2016-10-11/15:14:39");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new string[] { };
+            a = m.mediaUrl("https://media.codefights.com/date/2016-10-11/15:14:39");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new[] { "albinutte", "gallery", "2016" };
+            a = m.mediaUrl("https://media.codefights.com/Albinutte/date/2016");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new[] { "albinutte", "gallery", "photo" };
+            a = m.mediaUrl("https://media.codefights.com/Albinutte/date/photo");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new[] { "albinutte", "album", "366934" };
+            a = m.mediaUrl("https://media.codefights.com/Albinutte/albums/366934");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new[] { "albinutte", "gallery", "*" };
+            a = m.mediaUrl("http://media.codefights.com/Albinutte/date/15:15:05/2016-10-11");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new[] { "albinutte", "gallery", "*" };
+            a = m.mediaUrl("https://media.codefights.com/Albinutte/date/2016-10-11/24:14:39");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new[] { "albinutte", "details", "2016-11-05/12:14:39" };
+            a = m.mediaUrl("https://media.codefights.com/Albinutte/date/2016-11-05/12:14:39");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+
+            e = new[] { "albinutte", "gallery", "*" };
+            a = m.mediaUrl("https://media.codefights.com/Albinutte/2016-10-11/15:15:12");
+            Assert.AreEqual(String.Join(",", e), String.Join(",", a));
+        }
+
+        [TestMethod]
+        public void PrimeDistance()
+        {
+            var p = new PrimeDistance();
+            Assert.AreEqual(2, p.primeDistance("0"));
+            Assert.AreEqual(0, p.primeDistance("11"));
+            Assert.AreEqual(4, p.primeDistance("93"));
+            Assert.AreEqual(3, p.primeDistance("26"));
+            Assert.AreEqual(1, p.primeDistance("1"));
+            Assert.AreEqual(0, p.primeDistance("1979"));
+            Assert.AreEqual(11, p.primeDistance("2000000000"));
+            Assert.AreEqual(10, p.primeDistance("1800000001"));
+        }
     }
 }

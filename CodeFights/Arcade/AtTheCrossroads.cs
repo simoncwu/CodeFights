@@ -94,5 +94,28 @@ namespace CodeFights.CSharp.Arcade
             int winner = Math.Max(score1, score2), loser = Math.Min(score1, score2);
             return winner == 7 ? loser == 6 || loser == 5 : winner == 6 ? loser < 5 : false;
         }
+
+        /// <summary>
+        /// Determines whether or not a set of inputs contradicts an assumption that one is loved if and only if one is both young and beautiful.
+        /// </summary>
+        /// <param name="young">Whether or not the person is young.</param>
+        /// <param name="beautiful">Whether or not the person is beautiful.</param>
+        /// <param name="loved">Whether or not the person is loved.</param>
+        /// <returns><c>true</c> if the specified conditions contradicts the assumption; otherwise, <c>false</c>.</returns>
+        bool willYou(bool young, bool beautiful, bool loved)
+        {
+            return loved ? !(young && beautiful) : young && beautiful;
+        }
+
+        /// <summary>
+        /// Returns the possible number of days an expired unlimited MetroCard will be valid for assuming it is renewed for the full duration of the current month and is renewed immediately upon expiration without any gaps in coverage.
+        /// </summary>
+        /// <param name="lastNumberOfDays">The last number of days the MetroCard was most recently valid for.</param>
+        /// <returns>An array of the possible number of days for a MetroCard renewal, in increasing order.</returns>
+        int[] metroCard(int lastNumberOfDays)
+        {
+            return lastNumberOfDays == 30 ? new[] { 31 } : lastNumberOfDays == 28 ? new[] { 31 } : new[] { 28, 30, 31 };
+        }
+
     }
 }
