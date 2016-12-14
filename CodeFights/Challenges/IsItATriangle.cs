@@ -8,8 +8,34 @@ namespace CodeFights.CSharp.Challenges
 {
     public class IsItATriangle
     {
+        int isItATriangleSingleConnected(string[] image)
+        {
+            image = image.Where(s => s.Any(c => c == '.')).ToArray();
+            var widths = image.Select(s => s.Count(c => c == '.')).ToArray();
+            var leftPositions = image.Select(s => s.IndexOf(".")).ToArray();
+
+            Array.Sort(widths);
+            Array.Sort(leftPositions);
+
+            int lines = leftPositions.Length, j = lines < 2 ? 9 : widths[1], m = j > 2 ? 2 : 1, y = j < 2 ? 2 : 1;
+            int leftPadding = leftPositions.Sum();
+
+            bool r = widths[y - 1] > 1;
+            for (int i = y; i < lines; i += y)
+            {
+                if (r |= widths[i] - widths[i - y] != m
+                    | (leftPadding > leftPositions[0] * lines & leftPositions[i] - leftPositions[i - y] != 1))
+                    break;
+            }
+
+            return r ? 0 : widths.Sum();
+        }
+
+
         public int isItATriangle(string[] image)
         {
+            return isItATriangleSingleConnected(image);
+
             int tip = FindTip(image);
             if (tip == -1)
                 return 0;

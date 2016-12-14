@@ -52,12 +52,25 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Challenges\Alpha5Tests.cs" />
+    <Compile Include="Challenges\CodefightsTournamentTests.cs" />
     <Compile Include="Challenges\ContinuedFractionProductTests.cs" />
     <Compile Include="Challenges\FindClosestPointWithInclinationChallengeTests.cs" />
+    <Compile Include="Challenges\FindOperationTests.cs" />
     <Compile Include="Challenges\IsItATriangleTests.cs" />
+    <Compile Include="Challenges\MafiaChallengeTests.cs" />
+    <Compile Include="Challenges\MajorIndexTests.cs" />
     <Compile Include="Challenges\PrimeLengthTests.cs" />
+    <Compile Include="Challenges\RangeConsecutiveXorTests.cs" />
+    <Compile Include="Challenges\RowReductionChallengeTests.cs" />
+    <Compile Include="Challenges\SquareCheckTests.cs" />
+    <Compile Include="Challenges\StringMazeTests.cs" />
+    <Compile Include="Challenges\TriangleTests.cs" />
+    <Compile Include="Challenges\UbachiTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Challenges.cs" />
+    <Compile Include="Util.cs" />
+    <Compile Include="UtilTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodeFights\CodeFights.CSharp.csproj">
