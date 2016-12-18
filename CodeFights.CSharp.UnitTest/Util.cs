@@ -18,7 +18,8 @@ namespace CodeFights.CSharp.UnitTest
         /// <returns>An in-memory array instance of the data described by <paramref name="array"/>.</returns>
         public static T[] ParseArray<T>(string array, Func<string, T> parse)
         {
-            array = array?.Trim();
+            array = array ?? string.Empty;
+            array = array.Trim();
             if (array.Length > 1 && array[0] == '[' && array.Last() == ']')
                 array = array.Remove(array.Length - 1).Substring(1);
             return array.Split(',').Select(_ => parse(_)).ToArray();
@@ -33,7 +34,7 @@ namespace CodeFights.CSharp.UnitTest
         /// <returns>An in-memory jagged array instance of the data described by <paramref name="array"/>.</returns>
         public static T[][] ParseJaggedArray<T>(string array, Func<string, T> parse)
         {
-            if (array.Length > 3 && array.StartsWith("[[") && array.EndsWith("]]"))
+            if (array.Length > 1 && array.StartsWith("[") && array.EndsWith("]"))
                 array = array.Remove(array.Length - 1).Substring(1);
             return Regex.Matches(array, @"(\[[^\[\]]*\]),?").Cast<Match>().Select(_ => ParseArray(_.Groups[1].Value, parse)).ToArray();
         }
