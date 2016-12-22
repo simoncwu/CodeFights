@@ -70,8 +70,8 @@ namespace CodeFights.CSharp.Challenges
         /// <returns>The polynomial factor corresponding to <paramref name="root"/> as an array in the format[ coefficient, constant ].</returns>
         long[] ParseFactor(string root)
         {
-            var r = root.Split('/').Select(_ => long.Parse(_)).Reverse();
-            return new[] { r.Count() < 2 ? 1 : r.First(), -r.Last() };
+            var r = root.Split('/').Select(_ => long.Parse(_));
+            return new[] { r.Count() < 2 ? 1 : r.Last(), -r.First() };
         }
 
         /// <summary>
