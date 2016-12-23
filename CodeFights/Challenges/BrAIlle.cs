@@ -100,7 +100,7 @@ namespace CodeFights.CSharp.Challenges
                 // number indicator
                 if (c == '#')
                     isNumber = true;
-                if (c < 'a' || 'j' < c)
+                else if (c < 'a' || 'j' < c)
                     isNumber = false;
                 return d == 0 | c == '#' ? null : (isNumber && 'a' <= c ? (char)('0' + (c - '`') % 10) : c).ToString();
             }
