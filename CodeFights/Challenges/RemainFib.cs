@@ -22,12 +22,11 @@ namespace CodeFights.CSharp.Challenges
         /// <returns>The <paramref name="number"/>-th non-negative integer that is not a Fibonacci term.</returns>
         public string remainFib(string number)
         {
-            long fib1 = 1, fib2 = 1, n = long.Parse(number);
+            long fib1 = 1, fib2 = 2, n = long.Parse(number);
             // calculate Fib terms and increment n for each Fib term <= n found (thereby skipping the term)
-            while (fib2 <= n)
+            while (fib2 <= ++n)
             {
                 fib2 += fib1 = fib2 - fib1;
-                n++;
             }
             return n.ToString();
         }
