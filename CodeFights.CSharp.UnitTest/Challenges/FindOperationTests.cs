@@ -11,8 +11,8 @@ namespace CodeFights.CSharp.Challenges.Tests
     [TestClass]
     public class FindOperationTests
     {
-        [TestMethod]
-        public void FindOperation()
+        [TestMethod()]
+        public void findOperationTest()
         {
             var f = new FindOperation();
             Assert.AreEqual("0 + 8 - 1 + 90 - 45", f.findOperation(new[] { 0, 8, 1, 90, 45 }, 52));
