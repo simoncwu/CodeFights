@@ -100,5 +100,117 @@ namespace CodeFights.CSharp.Arcade
             return count;
         }
 
+        /// <summary>
+        /// Adds two numbers without carrying.
+        /// </summary>
+        /// <param name="param1">The first number to add.</param>
+        /// <param name="param2">The second number to add.</param>
+        /// <returns>The sum of <paramref name="param1"/> and <paramref name="param2"/> if no values are carried over.</returns>
+        int additionWithoutCarrying(int param1, int param2)
+        {
+            int sum = 0, col = 1;
+            while (param1 > 0 || param2 > 0)
+            {
+                sum += (param1 + param2) % 10 * col;
+                param1 /= 10;
+                param2 /= 10;
+                col *= 10;
+            }
+            return sum;
+        }
+
+        /// <summary>
+        /// Returns the difference between the sum of the squares of all even integers and the sum of the squares of all odd integers in a sequential series of numbers starting from 1.
+        /// </summary>
+        /// <param name="k">The last number in the series.</param>
+        /// <returns>The difference between the sum of the squares of even integers and the sum of the squares of odd integers from 1 to <paramref name="k"/>.</returns>
+        int appleBoxes(int k)
+        {
+            int sign = k % 2 > 0 ? 1 : -1, diff = 0;
+            while (k > 0)
+            {
+                diff += (sign *= -1) * k * k--;
+            }
+            return diff;
+        }
+
+        /// <summary>
+        /// Determines wether or not it is possible to increase the number of trailing zeros in an integer by swapping two of its digits.
+        /// </summary>
+        /// <param name="n">A positive integer.</param>
+        /// <returns><c>true</c> if it's possible to the number of trailing zeros; otherwise, <c>false</c>.</returns>
+        bool increaseNumberRoundness(int n)
+        {
+            while (n % 10 == 0)
+            {
+                n /= 10;
+            }
+            while (n > 0)
+            {
+                if (n % 10 == 0)
+                    return true;
+                n /= 10;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// Rounds an integer using a tail-rounding approach, which is to repeatedly round its least significant digit until only one non-zero digit remains.
+        /// </summary>
+        /// <param name="value">A positive integer.</param>
+        /// <returns>The tail-rounded value of <paramref name="value"/>.</returns>
+        int rounders(int value)
+        {
+            int e = 10;
+            while (value > e && (value % e > 0 || value / e > 10))
+            {
+                value = (value + e / 2) / e * e;
+                e *= 10;
+            }
+            return value;
+        }
+
+        /// <summary>
+        /// Returns the total number of candles that can be burned if leftovers from each burning can be combined to make a new candle.
+        /// </summary>
+        /// <param name="candlesNumber">The number of candles available to burn.</param>
+        /// <param name="makeNew">The number of candle leftovers required to make a new candle.</param>
+        /// <returns>The total number of candles that can be burned, including those made from leftovers.</returns>
+        int candles(int candlesNumber, int makeNew)
+        {
+            int leftover = 0, total = 0;
+            while (candlesNumber > 0)
+            {
+                total += candlesNumber;
+                leftover += candlesNumber;
+                candlesNumber = leftover / makeNew;
+                leftover %= makeNew;
+            }
+            return total;
+        }
+
+        /// <summary>
+        /// Returns the number of cells that intersect the diagonal in a rectangular grid.
+        /// </summary>
+        /// <param name="n">The number of rows in the grid.</param>
+        /// <param name="m">The number of columns in the grid.</param>
+        /// <returns>The number of cells that intersect the diagonal.</returns>
+        int countBlackCells(int n, int m)
+        {
+            decimal start = 0, end = start, slope = (decimal)n / m;
+            int cells = 0;
+            for (int i = 0; i < m; i++)
+            {
+                end = start + slope;
+                int si = (int)start, ei = (int)Math.Ceiling(end);
+                cells += ei - si;
+                if (si > 0 && start == si)
+                    cells++;
+                if (ei < n && end == ei)
+                    cells++;
+                start = end;
+            }
+            return cells;
+        }
     }
 }
