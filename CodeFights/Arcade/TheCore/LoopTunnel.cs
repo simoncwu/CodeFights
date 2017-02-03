@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeFights.CSharp.Arcade
+namespace CodeFights.CSharp.Arcade.TheCore
 {
     /// <summary>
     /// Solutions for CodeFights Arcade level "Loop Tunnel": 
