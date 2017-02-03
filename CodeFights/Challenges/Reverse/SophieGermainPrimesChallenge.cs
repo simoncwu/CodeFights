@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeFights.CSharp.Challenges
+namespace CodeFights.CSharp.Challenges.Reverse
 {
     /// <summary>
     /// Solution for CodeFights reverse challenge "SophieGermainPrimes": 

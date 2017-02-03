@@ -52,22 +52,23 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Challenges\Alpha5Tests.cs" />
+    <Compile Include="Challenges\Reverse\Alpha3Tests.cs" />
+    <Compile Include="Challenges\Reverse\Alpha5Tests.cs" />
     <Compile Include="Challenges\AwardedPrizesTests.cs" />
     <Compile Include="Challenges\BestCoinsExchangeTests.cs" />
-    <Compile Include="Challenges\BetaExorTests.cs" />
+    <Compile Include="Challenges\Reverse\BetaExorTests.cs" />
     <Compile Include="Challenges\BrAIlleTests.cs" />
     <Compile Include="Challenges\CandyForeCastTests.cs" />
     <Compile Include="Challenges\CodefightsTournamentTests.cs" />
     <Compile Include="Challenges\ContinuedFractionProductTests.cs" />
     <Compile Include="Challenges\ConvertIPv4Tests.cs" />
-    <Compile Include="Challenges\CountItTests.cs" />
+    <Compile Include="Challenges\Reverse\CountItTests.cs" />
     <Compile Include="Challenges\EmojticonChallengeTests.cs" />
     <Compile Include="Challenges\Equation2ChallengeTests.cs" />
     <Compile Include="Challenges\EquationChallengeTests.cs" />
     <Compile Include="Challenges\ExtractPinCodeTests.cs" />
     <Compile Include="Challenges\FindClosestPointWithInclinationChallengeTests.cs" />
-    <Compile Include="Challenges\FindColumnNameChallengeTests.cs" />
+    <Compile Include="Challenges\Reverse\FindColumnNameChallengeTests.cs" />
     <Compile Include="Challenges\FindOnlyDiffCharTests.cs" />
     <Compile Include="Challenges\FindOperationTests.cs" />
     <Compile Include="Challenges\FriendGroupsTests.cs" />
@@ -86,7 +87,7 @@
     <Compile Include="Challenges\ModulePowerTests.cs" />
     <Compile Include="Challenges\NewYearCodeFightsHackingChallengeTests.cs" />
     <Compile Include="Challenges\NorthPoleTrafficClockTests.cs" />
-    <Compile Include="Challenges\NumberRuleChallengeTests.cs" />
+    <Compile Include="Challenges\Reverse\NumberRuleChallengeTests.cs" />
     <Compile Include="Challenges\PolygonPlotOfLandTests.cs" />
     <Compile Include="Challenges\PossibleRingTests.cs" />
     <Compile Include="Challenges\PrimeLengthTests.cs" />
@@ -99,7 +100,7 @@
     <Compile Include="Challenges\ShortenNameChallengeTests.cs" />
     <Compile Include="Challenges\SmallestCircleTests.cs" />
     <Compile Include="Challenges\SnakeCubeTests.cs" />
-    <Compile Include="Challenges\SophieGermainPrimesChallengeTests.cs" />
+    <Compile Include="Challenges\Reverse\SophieGermainPrimesChallengeTests.cs" />
     <Compile Include="Challenges\SortItTests.cs" />
     <Compile Include="Challenges\SquareCheckTests.cs" />
     <Compile Include="Challenges\StringMazeTests.cs" />
@@ -109,7 +110,7 @@
     <Compile Include="Challenges\SwitchDemSignsTests.cs" />
     <Compile Include="Challenges\TetrahedronMaxFaceChallengeTests.cs" />
     <Compile Include="Challenges\TomsWagonsTests.cs" />
-    <Compile Include="Challenges\TriangleTests.cs" />
+    <Compile Include="Challenges\Reverse\TriangleTests.cs" />
     <Compile Include="Challenges\UbachiTests.cs" />
     <Compile Include="Challenges\VanyaAndBook1sChallengeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

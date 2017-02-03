@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeFights.CSharp.Challenges.Tests
+namespace CodeFights.CSharp.Challenges.Reverse.Tests
 {
     [TestClass]
     public class BetaExorTests

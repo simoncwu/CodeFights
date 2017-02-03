@@ -194,20 +194,6 @@ namespace CodeFights.CSharp.UnitTest
         }
 
         [TestMethod]
-        public void Alpha3()
-        {
-            var a = new Alpha3();
-            Assert.AreEqual("123", a.alpha3("abc"));
-            Assert.AreEqual("124", a.alpha3("abd"));
-            Assert.AreEqual("432", a.alpha3("bcd"));
-            Assert.AreEqual("345", a.alpha3("cde"));
-            Assert.AreEqual("98", a.alpha3("hij"));
-            Assert.AreEqual("866", a.alpha3("zfr"));
-            Assert.AreEqual("0", a.alpha3("jtj"));
-            Assert.AreEqual("7777498096857450", a.alpha3("Longer string!!!"));
-        }
-
-        [TestMethod]
         public void MediaUrl()
         {
             var m = new MediaUrl();

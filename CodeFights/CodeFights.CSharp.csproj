@@ -43,19 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Arcade\AtTheCrossroads.cs" />
-    <Compile Include="Arcade\CornerOf0sAnd1s.cs" />
-    <Compile Include="Arcade\IntroGates.cs" />
+    <Compile Include="Arcade\TheCore\AtTheCrossroads.cs" />
+    <Compile Include="Arcade\TheCore\CornerOf0sAnd1s.cs" />
+    <Compile Include="Arcade\TheCore\IntroGates.cs" />
     <Compile Include="Arcade\Intro\Level6.cs" />
     <Compile Include="Arcade\Intro\Level1.cs" />
     <Compile Include="Arcade\Intro\Level2.cs" />
     <Compile Include="Arcade\Intro\Level3.cs" />
     <Compile Include="Arcade\Intro\Level4.cs" />
     <Compile Include="Arcade\Intro\Level5.cs" />
-    <Compile Include="Arcade\LoopTunnel.cs" />
-    <Compile Include="Challenges\Alpha3.cs" />
-    <Compile Include="Challenges\Alpha4.cs" />
-    <Compile Include="Challenges\Alpha5.cs" />
+    <Compile Include="Arcade\TheCore\LoopTunnel.cs" />
+    <Compile Include="Challenges\Reverse\Alpha3.cs" />
+    <Compile Include="Challenges\Reverse\Alpha4.cs" />
+    <Compile Include="Challenges\Reverse\Alpha5.cs" />
     <Compile Include="Challenges\AlphabetStudyChallenge.cs" />
     <Compile Include="Challenges\AwardedPrizes.cs" />
     <Compile Include="Challenges\BestCoinsExchange.cs" />
@@ -64,12 +64,12 @@
     <Compile Include="Challenges\BrAIlle.cs" />
     <Compile Include="Challenges\CandyForeCast.cs" />
     <Compile Include="Challenges\Cardinal.cs" />
-    <Compile Include="Challenges\BetaExor.cs" />
+    <Compile Include="Challenges\Reverse\BetaExor.cs" />
     <Compile Include="Challenges\CodefightsTournament.cs" />
     <Compile Include="Challenges\CombinePasture.cs" />
     <Compile Include="Challenges\ContinuedFractionProduct.cs" />
     <Compile Include="Challenges\ConvertIPv4.cs" />
-    <Compile Include="Challenges\CountIt.cs" />
+    <Compile Include="Challenges\Reverse\CountIt.cs" />
     <Compile Include="Challenges\Decode2.cs" />
     <Compile Include="Challenges\EmojticonChallenge.cs" />
     <Compile Include="Challenges\Equation2Challenge.cs" />
@@ -77,7 +77,7 @@
     <Compile Include="Challenges\ExtractPinCode.cs" />
     <Compile Include="Challenges\FillTemplate.cs" />
     <Compile Include="Challenges\FindClosestPointWithInclinationChallenge.cs" />
-    <Compile Include="Challenges\FindColumnNameChallenge.cs" />
+    <Compile Include="Challenges\Reverse\FindColumnNameChallenge.cs" />
     <Compile Include="Challenges\FindOnlyDiffChar.cs" />
     <Compile Include="Challenges\FindOperation.cs" />
     <Compile Include="Challenges\FriendGroups.cs" />
@@ -88,7 +88,7 @@
     <Compile Include="Challenges\HolidayBreak.cs" />
     <Compile Include="Challenges\LongestIncreasingSubsequence.cs" />
     <Compile Include="Challenges\NorthPoleTrafficClock.cs" />
-    <Compile Include="Challenges\NumberRuleChallenge.cs" />
+    <Compile Include="Challenges\Reverse\NumberRuleChallenge.cs" />
     <Compile Include="Challenges\Isbn13.cs" />
     <Compile Include="Challenges\IsItATriangle.cs" />
     <Compile Include="Challenges\LUDecomposition.cs" />
@@ -114,7 +114,7 @@
     <Compile Include="Challenges\SinArea.cs" />
     <Compile Include="Challenges\SmallestCircle.cs" />
     <Compile Include="Challenges\SnakeCube.cs" />
-    <Compile Include="Challenges\SophieGermainPrimesChallenge.cs" />
+    <Compile Include="Challenges\Reverse\SophieGermainPrimesChallenge.cs" />
     <Compile Include="Challenges\SortIt.cs" />
     <Compile Include="Challenges\SquareCheck.cs" />
     <Compile Include="Challenges\StringMaze.cs" />
@@ -124,7 +124,7 @@
     <Compile Include="Challenges\SwitchDemSigns.cs" />
     <Compile Include="Challenges\TetrahedronMaxFaceChallenge.cs" />
     <Compile Include="Challenges\TomsWagons.cs" />
-    <Compile Include="Challenges\Triangle.cs" />
+    <Compile Include="Challenges\Reverse\Triangle.cs" />
     <Compile Include="Challenges\UbachiChallenge.cs" />
     <Compile Include="Challenges\VanyaAndBook1sChallenge.cs" />
     <Compile Include="Challenges\Wire.cs" />
@@ -140,9 +140,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Arcade\TheCore\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
