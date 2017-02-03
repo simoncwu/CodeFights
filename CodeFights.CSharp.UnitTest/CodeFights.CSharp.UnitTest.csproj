@@ -60,6 +60,7 @@
     <Compile Include="Challenges\CandyForeCastTests.cs" />
     <Compile Include="Challenges\CodefightsTournamentTests.cs" />
     <Compile Include="Challenges\ContinuedFractionProductTests.cs" />
+    <Compile Include="Challenges\ConvertIPv4Tests.cs" />
     <Compile Include="Challenges\CountItTests.cs" />
     <Compile Include="Challenges\EmojticonChallengeTests.cs" />
     <Compile Include="Challenges\Equation2ChallengeTests.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Challenges\HolidayBreakTests.cs" />
     <Compile Include="Challenges\Isbn13Tests.cs" />
     <Compile Include="Challenges\IsItATriangleTests.cs" />
+    <Compile Include="Challenges\LongestIncreasingSubsequenceTests.cs" />
     <Compile Include="Challenges\LUDecompositionTests.cs" />
     <Compile Include="Challenges\MafiaChallengeTests.cs" />
     <Compile Include="Challenges\MagicSquareTests.cs" />
@@ -98,11 +100,13 @@
     <Compile Include="Challenges\SmallestCircleTests.cs" />
     <Compile Include="Challenges\SnakeCubeTests.cs" />
     <Compile Include="Challenges\SophieGermainPrimesChallengeTests.cs" />
+    <Compile Include="Challenges\SortItTests.cs" />
     <Compile Include="Challenges\SquareCheckTests.cs" />
     <Compile Include="Challenges\StringMazeTests.cs" />
     <Compile Include="Challenges\StringsRearrangementTests.cs" />
     <Compile Include="Challenges\SumDigitalRootFactorTests.cs" />
     <Compile Include="Challenges\SumDivisorsTests.cs" />
+    <Compile Include="Challenges\SwitchDemSignsTests.cs" />
     <Compile Include="Challenges\TetrahedronMaxFaceChallengeTests.cs" />
     <Compile Include="Challenges\TomsWagonsTests.cs" />
     <Compile Include="Challenges\TriangleTests.cs" />

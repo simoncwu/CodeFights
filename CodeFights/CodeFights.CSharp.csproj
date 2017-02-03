@@ -46,6 +46,12 @@
     <Compile Include="Arcade\AtTheCrossroads.cs" />
     <Compile Include="Arcade\CornerOf0sAnd1s.cs" />
     <Compile Include="Arcade\IntroGates.cs" />
+    <Compile Include="Arcade\Intro\Level6.cs" />
+    <Compile Include="Arcade\Intro\Level1.cs" />
+    <Compile Include="Arcade\Intro\Level2.cs" />
+    <Compile Include="Arcade\Intro\Level3.cs" />
+    <Compile Include="Arcade\Intro\Level4.cs" />
+    <Compile Include="Arcade\Intro\Level5.cs" />
     <Compile Include="Arcade\LoopTunnel.cs" />
     <Compile Include="Challenges\Alpha3.cs" />
     <Compile Include="Challenges\Alpha4.cs" />
@@ -62,6 +68,7 @@
     <Compile Include="Challenges\CodefightsTournament.cs" />
     <Compile Include="Challenges\CombinePasture.cs" />
     <Compile Include="Challenges\ContinuedFractionProduct.cs" />
+    <Compile Include="Challenges\ConvertIPv4.cs" />
     <Compile Include="Challenges\CountIt.cs" />
     <Compile Include="Challenges\Decode2.cs" />
     <Compile Include="Challenges\EmojticonChallenge.cs" />
@@ -79,6 +86,7 @@
     <Compile Include="Challenges\HeavenlyBlissRecipeChallenge.cs" />
     <Compile Include="Challenges\HelpingBob.cs" />
     <Compile Include="Challenges\HolidayBreak.cs" />
+    <Compile Include="Challenges\LongestIncreasingSubsequence.cs" />
     <Compile Include="Challenges\NorthPoleTrafficClock.cs" />
     <Compile Include="Challenges\NumberRuleChallenge.cs" />
     <Compile Include="Challenges\Isbn13.cs" />
@@ -107,11 +115,13 @@
     <Compile Include="Challenges\SmallestCircle.cs" />
     <Compile Include="Challenges\SnakeCube.cs" />
     <Compile Include="Challenges\SophieGermainPrimesChallenge.cs" />
+    <Compile Include="Challenges\SortIt.cs" />
     <Compile Include="Challenges\SquareCheck.cs" />
     <Compile Include="Challenges\StringMaze.cs" />
     <Compile Include="Challenges\StringsRearrangement.cs" />
     <Compile Include="Challenges\SumDigitalRootFactor.cs" />
     <Compile Include="Challenges\SumDivisors.cs" />
+    <Compile Include="Challenges\SwitchDemSigns.cs" />
     <Compile Include="Challenges\TetrahedronMaxFaceChallenge.cs" />
     <Compile Include="Challenges\TomsWagons.cs" />
     <Compile Include="Challenges\Triangle.cs" />
@@ -129,6 +139,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Arcade\TheCore\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
