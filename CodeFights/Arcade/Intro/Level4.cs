@@ -76,6 +76,9 @@ namespace CodeFights.CSharp.Arcade.Intro
                 counts[c - 'a']++;
             }
             return counts.Count(_ => _ % 2 > 0) < 2;
+
+            // one-line LINQ version, slightly less performant
+            return inputString.Distinct().Count(_ => inputString.Count(c => c == _) % 2 > 0) < 2;
         }
     }
 }
