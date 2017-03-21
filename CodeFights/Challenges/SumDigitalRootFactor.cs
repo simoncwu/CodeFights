@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CodeFights.CSharp.Challenges
 {
     /// <summary>
-    /// Solution for CodeFights challenge: 
+    /// Solution for CodeFights challenge "sumDigitalRootFactor": 
     /// https://codefights.com/challenge/pNs68Sh3W25u7hRaP
     /// 
     /// Consider a function F(n) as the maximum possible sum of the digital 
