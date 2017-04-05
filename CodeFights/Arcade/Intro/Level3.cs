@@ -85,5 +85,33 @@ namespace CodeFights.CSharp.Arcade.Intro
             }
             return inputArray.Max();
         }
+
+        /// <summary>
+        /// Given a string of various characters, including parentheses that form a regular bracket sequence, reverse the strings contained in each pair of matching parentheses, innermost first, and return the resulting string without the parentheses.
+        /// </summary>
+        /// <param name="s">A string containing a regular bracket sequence.</param>
+        /// <returns>The result of reversing the strings within each set of parentheses, innermost pair first.</returns>
+        string reverseParentheses(string s)
+        {
+            var openParens = new Stack<int>();
+            var r = "";
+            foreach (var c in s)
+            {
+                switch (c)
+                {
+                    case '(':
+                        openParens.Push(r.Length);
+                        break;
+                    case ')':
+                        int l = openParens.Pop();
+                        r = r.Remove(l) + string.Concat(r.Substring(l).Reverse());
+                        break;
+                    default:
+                        r += c;
+                        break;
+                }
+            }
+            return r;
+        }
     }
 }
