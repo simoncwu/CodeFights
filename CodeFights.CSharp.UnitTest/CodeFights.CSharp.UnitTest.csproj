@@ -161,6 +161,7 @@
     <Compile Include="Challenges\NewYearCodeFightsHackingChallengeTests.cs" />
     <Compile Include="Challenges\NorthPoleTrafficClockTests.cs" />
     <Compile Include="Challenges\Reverse\Gamma3456789Tests.cs" />
+    <Compile Include="Challenges\Reverse\IDontKnowTests.cs" />
     <Compile Include="Challenges\Reverse\ImagineTests.cs" />
     <Compile Include="Challenges\Reverse\IScreamTests.cs" />
     <Compile Include="Challenges\Reverse\LeftoverTests.cs" />

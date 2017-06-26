@@ -166,6 +166,7 @@
     <Compile Include="Challenges\LongestIncreasingSubsequence.cs" />
     <Compile Include="Challenges\NorthPoleTrafficClock.cs" />
     <Compile Include="Challenges\Reverse\Gamma3456789.cs" />
+    <Compile Include="Challenges\Reverse\IDontKnow.cs" />
     <Compile Include="Challenges\Reverse\Imagine.cs" />
     <Compile Include="Challenges\Reverse\IScream.cs" />
     <Compile Include="Challenges\Reverse\Leftover.cs" />
