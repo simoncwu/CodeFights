@@ -18,7 +18,7 @@ namespace CodeFights.CSharp.Challenges
     public class MaxLCM
     {
         /// <summary>
-        /// 
+        /// Returns the lexicographically smallest way to represent a positive integer as a sum of positive integers sharing a maximal least common multiple.
         /// </summary>
         /// <param name="n">1 ≤ n ≤ 100.</param>
         /// <returns>The answer in the following form: <c>s1+s2+...+st,maxLCM</c> where each si is in increasing order.</returns>
