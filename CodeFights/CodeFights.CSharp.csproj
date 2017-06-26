@@ -95,6 +95,7 @@
     <Compile Include="Challenges\HasPalindromicAnagram.cs" />
     <Compile Include="Challenges\HelpingStephan.cs" />
     <Compile Include="Challenges\Interpreter.cs" />
+    <Compile Include="Challenges\IPInfo.cs" />
     <Compile Include="Challenges\IsGoodMatrix.cs" />
     <Compile Include="Challenges\IsoscelesTriangles.cs" />
     <Compile Include="Challenges\IsSuperPalindrome.cs" />
