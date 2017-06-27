@@ -229,6 +229,7 @@
     <Compile Include="Challenges\WorthyDiceSetTests.cs" />
     <Compile Include="HeadToHead\ChessBoardSquaresUnderQueenAttackTests.cs" />
     <Compile Include="InterviewPractice\AmendTheSentenceTests.cs" />
+    <Compile Include="InterviewPractice\AreFollowingPatternsTests.cs" />
     <Compile Include="InterviewPractice\ClassifyStringsTests.cs" />
     <Compile Include="InterviewPractice\ContainsDuplicatesTests.cs" />
     <Compile Include="InterviewPractice\FirstDuplicateTests.cs" />

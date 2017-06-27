@@ -252,6 +252,7 @@
     <Compile Include="Encode.cs" />
     <Compile Include="HeadToHead\ChessBoardSquaresUnderQueenAttack.cs" />
     <Compile Include="InterviewPractice\AmendTheSentence.cs" />
+    <Compile Include="InterviewPractice\AreFollowingPatterns.cs" />
     <Compile Include="InterviewPractice\ClassifyStrings.cs" />
     <Compile Include="InterviewPractice\ContainsDuplicates.cs" />
     <Compile Include="InterviewPractice\FirstDuplicate.cs" />
