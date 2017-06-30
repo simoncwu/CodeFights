@@ -8,7 +8,8 @@ namespace CodeFights.CSharp.InterviewPractice
 {
     /// <summary>
     /// Solution for CodeFights interview practice "possibleSums": 
-    /// https://codefights.com/interview/ccHxGiEhZmbyycSNu
+    /// https://codefights.com/interview-practice/task/rMe9ypPJkXgk3MHhZ
+    /// Asked By: Google
     /// 
     /// Given the values of a collection of coins and the quantities of each 
     /// denomination, find the number of distinct, positive sums that can be 
@@ -38,6 +39,8 @@ namespace CodeFights.CSharp.InterviewPractice
                     }
                 }
             }
+
+            // subtact 1 from count for implicit sum of 0
             return sums.Count - 1;
         }
     }

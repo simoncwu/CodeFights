@@ -82,6 +82,7 @@
     <Compile Include="Challenges\DerivativeTests.cs" />
     <Compile Include="Challenges\DigitSumInverseTests.cs" />
     <Compile Include="Challenges\EndianWarTests.cs" />
+    <Compile Include="Challenges\FactororTests.cs" />
     <Compile Include="Challenges\FillByPowersTests.cs" />
     <Compile Include="Challenges\FindScoreTests.cs" />
     <Compile Include="Challenges\FindTheFormulaTests.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Challenges\KuromasuPuzzleTests.cs" />
     <Compile Include="Challenges\LeastTilesTests.cs" />
     <Compile Include="Challenges\LongestConsecutiveTests.cs" />
+    <Compile Include="Challenges\MagicSquare3by3Tests.cs" />
     <Compile Include="Challenges\MaxDiscountTests.cs" />
     <Compile Include="Challenges\MaxVassalTests.cs" />
     <Compile Include="Challenges\ModuloHarshadTests.cs" />
@@ -121,6 +123,7 @@
     <Compile Include="Challenges\RemoveDigitsTests.cs" />
     <Compile Include="Challenges\ReverseInverseTests.cs" />
     <Compile Include="Challenges\Reverse\AFMNumbersTests.cs" />
+    <Compile Include="Challenges\Reverse\AlmostRootSumTests.cs" />
     <Compile Include="Challenges\Reverse\Alpha2Tests.cs" />
     <Compile Include="Challenges\Reverse\Alpha3Tests.cs" />
     <Compile Include="Challenges\Reverse\Alpha5Tests.cs" />
@@ -231,6 +234,7 @@
     <Compile Include="InterviewPractice\AmendTheSentenceTests.cs" />
     <Compile Include="InterviewPractice\AreFollowingPatternsTests.cs" />
     <Compile Include="InterviewPractice\ClassifyStringsTests.cs" />
+    <Compile Include="InterviewPractice\ContainsCloseNumsTests.cs" />
     <Compile Include="InterviewPractice\ContainsDuplicatesTests.cs" />
     <Compile Include="InterviewPractice\FirstDuplicateTests.cs" />
     <Compile Include="InterviewPractice\FirstNotRepeatingCharacterTests.cs" />
