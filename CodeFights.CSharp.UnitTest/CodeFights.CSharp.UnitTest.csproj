@@ -61,6 +61,7 @@
     <Compile Include="Challenges\CalendarTests.cs" />
     <Compile Include="Challenges\CandyCrush1Tests.cs" />
     <Compile Include="Challenges\CandyCrush2Tests.cs" />
+    <Compile Include="Challenges\CardsTests.cs" />
     <Compile Include="Challenges\CaucusRaceTests.cs" />
     <Compile Include="Challenges\ChangeOfVowelsInCycleTests.cs" />
     <Compile Include="Challenges\CharWeightTests.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Challenges\GetGiraffeNumbersTests.cs" />
     <Compile Include="Challenges\GetImprovementPercentagesTests.cs" />
     <Compile Include="Challenges\GetTemperatureInfoTests.cs" />
+    <Compile Include="Challenges\GoodSetTests.cs" />
     <Compile Include="Challenges\GrawgAndLawgTests.cs" />
     <Compile Include="Challenges\HasPalindromicAnagramTests.cs" />
     <Compile Include="Challenges\HelpingStephanTests.cs" />
@@ -206,6 +208,7 @@
     <Compile Include="Challenges\StudentsAgeTests.cs" />
     <Compile Include="Challenges\SuccessivePrimesTests.cs" />
     <Compile Include="Challenges\Sum4SquaresTests.cs" />
+    <Compile Include="Challenges\SumBitReverseTests.cs" />
     <Compile Include="Challenges\SumDigitalRootFactorTests.cs" />
     <Compile Include="Challenges\SumDivisorsTests.cs" />
     <Compile Include="Challenges\SurviveItTests.cs" />
