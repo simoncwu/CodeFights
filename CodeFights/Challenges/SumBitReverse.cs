@@ -30,8 +30,8 @@ namespace CodeFights.CSharp.Challenges
         /// Reverses the order of the bits in an integer.
         /// </summary>
         /// <param name="x">An integer.</param>
-        /// <param name="n"></param>
-        /// <returns></returns>
+        /// <param name="n">The value of any previously reversed bits. Defaults to <c>0</c> if not specified.</param>
+        /// <returns>The value of <paramref name="x"/> with its bits reversed, prefixed with the bits of <paramref name="n"/>.</returns>
         long ReverseBits(long x, long n = 0) => x < 1 ? n : ReverseBits(x / 2, n + n + x % 2);
     }
 }
