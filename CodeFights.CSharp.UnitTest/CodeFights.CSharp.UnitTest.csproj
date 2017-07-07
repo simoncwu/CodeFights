@@ -73,6 +73,7 @@
     <Compile Include="Challenges\ClockRadianTests.cs" />
     <Compile Include="Challenges\CodeGolfReducedScoreTests.cs" />
     <Compile Include="Challenges\ConsecutiveBitTests.cs" />
+    <Compile Include="Challenges\ConvertStringTests.cs" />
     <Compile Include="Challenges\CoolSubsetsTests.cs" />
     <Compile Include="Challenges\CopycatKeeperTests.cs" />
     <Compile Include="Challenges\CountCliffsTests.cs" />

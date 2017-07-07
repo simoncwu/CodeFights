@@ -75,6 +75,7 @@
     <Compile Include="Challenges\ClockRadian.cs" />
     <Compile Include="Challenges\CodeGolfReducedScore.cs" />
     <Compile Include="Challenges\ConsecutiveBit.cs" />
+    <Compile Include="Challenges\ConvertString.cs" />
     <Compile Include="Challenges\CoolSubsets.cs" />
     <Compile Include="Challenges\CopycatKeeper.cs" />
     <Compile Include="Challenges\CountCliffs.cs" />
