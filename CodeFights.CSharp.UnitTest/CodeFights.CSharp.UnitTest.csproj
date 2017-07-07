@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Challenges\AlienBitTests.cs" />
     <Compile Include="Challenges\AlphabetExerciseTests.cs" />
+    <Compile Include="Challenges\AnArrayGameTests.cs" />
     <Compile Include="Challenges\AppendHTMLTests.cs" />
     <Compile Include="Challenges\AreTrianglesSimilarTests.cs" />
     <Compile Include="Challenges\BitsTests.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Challenges\GrawgAndLawgTests.cs" />
     <Compile Include="Challenges\HasPalindromicAnagramTests.cs" />
     <Compile Include="Challenges\HelpingStephanTests.cs" />
+    <Compile Include="Challenges\IncrementCipherTests.cs" />
     <Compile Include="Challenges\InterpreterTests.cs" />
     <Compile Include="Challenges\IPInfoTests.cs" />
     <Compile Include="Challenges\IsGoodMatrixTests.cs" />
@@ -171,6 +173,7 @@
     <Compile Include="Challenges\Reverse\ImagineTests.cs" />
     <Compile Include="Challenges\Reverse\IScreamTests.cs" />
     <Compile Include="Challenges\Reverse\LeftoverTests.cs" />
+    <Compile Include="Challenges\Reverse\LucasTests.cs" />
     <Compile Include="Challenges\Reverse\MeaningOfLifeTests.cs" />
     <Compile Include="Challenges\Reverse\NavChallengeTests.cs" />
     <Compile Include="Challenges\Reverse\NumberRuleChallengeTests.cs" />

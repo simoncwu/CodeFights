@@ -56,6 +56,7 @@
     <Compile Include="Arcade\TheCore\LoopTunnel.cs" />
     <Compile Include="Challenges\AlienBit.cs" />
     <Compile Include="Challenges\AlphabetExercise.cs" />
+    <Compile Include="Challenges\AnArrayGame.cs" />
     <Compile Include="Challenges\AppendHTML.cs" />
     <Compile Include="Challenges\AreTrianglesSimilar.cs" />
     <Compile Include="Challenges\Bits.cs" />
@@ -97,6 +98,7 @@
     <Compile Include="Challenges\GrawgAndLawg.cs" />
     <Compile Include="Challenges\HasPalindromicAnagram.cs" />
     <Compile Include="Challenges\HelpingStephan.cs" />
+    <Compile Include="Challenges\IncrementCipher.cs" />
     <Compile Include="Challenges\Interpreter.cs" />
     <Compile Include="Challenges\IPInfo.cs" />
     <Compile Include="Challenges\IsGoodMatrix.cs" />
@@ -176,6 +178,7 @@
     <Compile Include="Challenges\Reverse\Imagine.cs" />
     <Compile Include="Challenges\Reverse\IScream.cs" />
     <Compile Include="Challenges\Reverse\Leftover.cs" />
+    <Compile Include="Challenges\Reverse\Lucas.cs" />
     <Compile Include="Challenges\Reverse\MeaningOfLife.cs" />
     <Compile Include="Challenges\Reverse\NavChallenge.cs" />
     <Compile Include="Challenges\Reverse\NumberRuleChallenge.cs" />
