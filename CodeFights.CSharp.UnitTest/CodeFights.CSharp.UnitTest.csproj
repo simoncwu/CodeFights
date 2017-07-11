@@ -86,6 +86,8 @@
     <Compile Include="Challenges\DigitSumInverseTests.cs" />
     <Compile Include="Challenges\EndianWarTests.cs" />
     <Compile Include="Challenges\FactororTests.cs" />
+    <Compile Include="Challenges\FermactorTests.cs" />
+    <Compile Include="Challenges\FibonacciWordTests.cs" />
     <Compile Include="Challenges\FillByPowersTests.cs" />
     <Compile Include="Challenges\FindScoreTests.cs" />
     <Compile Include="Challenges\FindTheFormulaTests.cs" />
@@ -184,6 +186,7 @@
     <Compile Include="Challenges\PrizeChallengeTests.cs" />
     <Compile Include="Challenges\RangeConsecutiveXorTests.cs" />
     <Compile Include="Challenges\RemainFibTests.cs" />
+    <Compile Include="Challenges\Reverse\OneLeftTests.cs" />
     <Compile Include="Challenges\Reverse\OrezRoEnoTests.cs" />
     <Compile Include="Challenges\Reverse\PoweryTests.cs" />
     <Compile Include="Challenges\Reverse\ProductTests.cs" />

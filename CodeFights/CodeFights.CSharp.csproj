@@ -89,6 +89,8 @@
     <Compile Include="Challenges\EndianWar.cs" />
     <Compile Include="Challenges\Extrapolation.cs" />
     <Compile Include="Challenges\Factoror.cs" />
+    <Compile Include="Challenges\Fermactor.cs" />
+    <Compile Include="Challenges\FibonacciWord.cs" />
     <Compile Include="Challenges\FillByPowers.cs" />
     <Compile Include="Challenges\FindScore.cs" />
     <Compile Include="Challenges\FindTheFormula.cs" />
@@ -200,6 +202,7 @@
     <Compile Include="Challenges\PrizeChallenge.cs" />
     <Compile Include="Challenges\RangeConsecutiveXor.cs" />
     <Compile Include="Challenges\RemainFib.cs" />
+    <Compile Include="Challenges\Reverse\OneLeft.cs" />
     <Compile Include="Challenges\Reverse\OrezRoEno.cs" />
     <Compile Include="Challenges\Reverse\Powery.cs" />
     <Compile Include="Challenges\Reverse\Product.cs" />
