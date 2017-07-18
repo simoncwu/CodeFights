@@ -297,6 +297,7 @@
     <Compile Include="InterviewPractice\SumInRange.cs" />
     <Compile Include="InterviewPractice\SumOfTwo.cs" />
     <Compile Include="InterviewPractice\TextJustificaiton.cs" />
+    <Compile Include="InterviewPractice\TraverseTree.cs" />
     <Compile Include="MultiFactorial.cs" />
     <Compile Include="NumberOfLettersSolution.cs" />
     <Compile Include="PrimeDigits.cs" />

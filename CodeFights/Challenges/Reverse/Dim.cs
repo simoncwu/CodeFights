@@ -13,10 +13,10 @@ namespace CodeFights.CSharp.Challenges.Reverse
     public class Dim
     {
         /// <summary>
-        /// Returns the exponent of the smallest power of 2 that is greater than a specific integer.
+        /// Returns the number of digits in the binary representation of an integer.
         /// </summary>
         /// <param name="n">A nonnegative integer.</param>
-        /// <returns>The exponent of the smallest power of 2 greater than <paramref name="n"/>.</returns>
+        /// <returns>The number of digits in the binary reprsentation of <paramref name="n"/>.</returns>
         public int dim(long n) => n < 2 ? 1 : 1 + dim(n / 2);
     }
 }
