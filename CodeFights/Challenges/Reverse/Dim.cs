@@ -13,10 +13,10 @@ namespace CodeFights.CSharp.Challenges.Reverse
     public class Dim
     {
         /// <summary>
-        /// Returns the number of digits in the binary representation of an integer.
+        /// Returns the minimum number of bits needed to store the value of an integer.
         /// </summary>
         /// <param name="n">A nonnegative integer.</param>
-        /// <returns>The number of digits in the binary reprsentation of <paramref name="n"/>.</returns>
+        /// <returns>The minimum number of bits needed to store the value of <paramref name="n"/>.</returns>
         public int dim(long n) => n < 2 ? 1 : 1 + dim(n / 2);
     }
 }
