@@ -94,6 +94,7 @@
     <Compile Include="Challenges\FillByPowers.cs" />
     <Compile Include="Challenges\FindScore.cs" />
     <Compile Include="Challenges\FindTheFormula.cs" />
+    <Compile Include="Challenges\GameOfSigns.cs" />
     <Compile Include="Challenges\GetGiraffeNumbers.cs" />
     <Compile Include="Challenges\GetImprovementPercentages.cs" />
     <Compile Include="Challenges\GetTemperatureInfo.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="Challenges\IPInfo.cs" />
     <Compile Include="Challenges\IsGoodMatrix.cs" />
     <Compile Include="Challenges\IsoscelesTriangles.cs" />
+    <Compile Include="Challenges\IsSpecialPalindrome.cs" />
     <Compile Include="Challenges\IsSuperPalindrome.cs" />
     <Compile Include="Challenges\IsValidNumber.cs" />
     <Compile Include="Challenges\KthBoring.cs" />
@@ -128,6 +130,7 @@
     <Compile Include="Challenges\PrevPalindrome.cs" />
     <Compile Include="Challenges\PrimeClimb.cs" />
     <Compile Include="Challenges\QuadZip.cs" />
+    <Compile Include="Challenges\Racers.cs" />
     <Compile Include="Challenges\Random1.cs" />
     <Compile Include="Challenges\Reciprocal.cs" />
     <Compile Include="Challenges\RelativePrimes.cs" />
@@ -155,6 +158,7 @@
     <Compile Include="Challenges\ContinuedFractionProduct.cs" />
     <Compile Include="Challenges\ConvertIPv4.cs" />
     <Compile Include="Challenges\Reverse\BuildBrocot.cs" />
+    <Compile Include="Challenges\Reverse\CDroid.cs" />
     <Compile Include="Challenges\Reverse\CountDs.cs" />
     <Compile Include="Challenges\Reverse\CountIt.cs" />
     <Compile Include="Challenges\Decode2.cs" />
@@ -165,6 +169,7 @@
     <Compile Include="Challenges\FillTemplate.cs" />
     <Compile Include="Challenges\FindClosestPointWithInclinationChallenge.cs" />
     <Compile Include="Challenges\Reverse\Decryption.cs" />
+    <Compile Include="Challenges\Reverse\Dim.cs" />
     <Compile Include="Challenges\Reverse\FindColumnNameChallenge.cs" />
     <Compile Include="Challenges\FindOnlyDiffChar.cs" />
     <Compile Include="Challenges\FindOperation.cs" />

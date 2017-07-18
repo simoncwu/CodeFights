@@ -15,8 +15,8 @@ namespace CodeFights.CSharp.Challenges.Tests
         public void NewYearCodeFightsHackingTest()
         {
             var n = new NewYearCodeFightsHackingChallenge();
-            Assert.AreEqual(22, n.NewYearCodeFightsHacking(2, "happynewyear"));
             Assert.AreEqual(8, n.NewYearCodeFightsHacking(2, "codecode"));
+            Assert.AreEqual(22, n.NewYearCodeFightsHacking(2, "happynewyear"));
             Assert.AreEqual(7, n.NewYearCodeFightsHacking(1, "pfml"));
             Assert.AreEqual(-1, n.NewYearCodeFightsHacking(1, "itisnotreal"));
             Assert.AreEqual(10, n.NewYearCodeFightsHacking(10, "uslada"));

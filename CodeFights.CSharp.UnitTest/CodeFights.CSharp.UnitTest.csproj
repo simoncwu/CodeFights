@@ -91,6 +91,7 @@
     <Compile Include="Challenges\FillByPowersTests.cs" />
     <Compile Include="Challenges\FindScoreTests.cs" />
     <Compile Include="Challenges\FindTheFormulaTests.cs" />
+    <Compile Include="Challenges\GameOfSignsTests.cs" />
     <Compile Include="Challenges\GetGiraffeNumbersTests.cs" />
     <Compile Include="Challenges\GetImprovementPercentagesTests.cs" />
     <Compile Include="Challenges\GetTemperatureInfoTests.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Challenges\IPInfoTests.cs" />
     <Compile Include="Challenges\IsGoodMatrixTests.cs" />
     <Compile Include="Challenges\IsoscelesTrianglesTests.cs" />
+    <Compile Include="Challenges\IsSpecialPalindromeTests.cs" />
     <Compile Include="Challenges\IsSuperPalindromeTests.cs" />
     <Compile Include="Challenges\IsValidNumberTests.cs" />
     <Compile Include="Challenges\KthBoringTests.cs" />
@@ -124,6 +126,7 @@
     <Compile Include="Challenges\PrevPalindromeTests.cs" />
     <Compile Include="Challenges\PrimeClimbTests.cs" />
     <Compile Include="Challenges\QuadZipTests.cs" />
+    <Compile Include="Challenges\RacersTests.cs" />
     <Compile Include="Challenges\Random1Tests.cs" />
     <Compile Include="Challenges\ReciprocalTests.cs" />
     <Compile Include="Challenges\RelativePrimesTests.cs" />
@@ -144,6 +147,7 @@
     <Compile Include="Challenges\CodefightsTournamentTests.cs" />
     <Compile Include="Challenges\ContinuedFractionProductTests.cs" />
     <Compile Include="Challenges\ConvertIPv4Tests.cs" />
+    <Compile Include="Challenges\Reverse\CDroidTests.cs" />
     <Compile Include="Challenges\Reverse\CountDsTests.cs" />
     <Compile Include="Challenges\Reverse\CountItTests.cs" />
     <Compile Include="Challenges\EmojticonChallengeTests.cs" />
@@ -152,6 +156,7 @@
     <Compile Include="Challenges\ExtractPinCodeTests.cs" />
     <Compile Include="Challenges\FindClosestPointWithInclinationChallengeTests.cs" />
     <Compile Include="Challenges\Reverse\DecryptionTests.cs" />
+    <Compile Include="Challenges\Reverse\DimTests.cs" />
     <Compile Include="Challenges\Reverse\FindColumnNameChallengeTests.cs" />
     <Compile Include="Challenges\FindOnlyDiffCharTests.cs" />
     <Compile Include="Challenges\FindOperationTests.cs" />
