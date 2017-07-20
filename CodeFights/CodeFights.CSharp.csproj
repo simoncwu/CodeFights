@@ -117,6 +117,7 @@
     <Compile Include="Challenges\MagicSquare3by3.cs" />
     <Compile Include="Challenges\MaxDiscount.cs" />
     <Compile Include="Challenges\MaxVassal.cs" />
+    <Compile Include="Challenges\MazeEscape.cs" />
     <Compile Include="Challenges\MissingPermutations.cs" />
     <Compile Include="Challenges\ModuloHarshad.cs" />
     <Compile Include="Challenges\NewBinary.cs" />
