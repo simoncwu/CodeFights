@@ -120,6 +120,7 @@
     <Compile Include="Challenges\MissingPermutations.cs" />
     <Compile Include="Challenges\ModuloHarshad.cs" />
     <Compile Include="Challenges\NewBinary.cs" />
+    <Compile Include="Challenges\NextGameOfLife.cs" />
     <Compile Include="Challenges\NextSquare.cs" />
     <Compile Include="Challenges\NotIndexOf.cs" />
     <Compile Include="Challenges\NumberSystem.cs" />
@@ -279,6 +280,7 @@
     <Compile Include="InterviewPractice\GroupingDishes.cs" />
     <Compile Include="InterviewPractice\InnerRanges.cs" />
     <Compile Include="InterviewPractice\IsCryptSolution.cs" />
+    <Compile Include="InterviewPractice\LargestValuesInTreeRows.cs" />
     <Compile Include="InterviewPractice\LongestPath.cs" />
     <Compile Include="InterviewPractice\MatrixElementsInSpiralOrder.cs" />
     <Compile Include="InterviewPractice\MissingNumber.cs" />

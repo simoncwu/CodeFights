@@ -119,6 +119,7 @@
     <Compile Include="Challenges\MaxVassalTests.cs" />
     <Compile Include="Challenges\ModuloHarshadTests.cs" />
     <Compile Include="Challenges\NewBinaryTests.cs" />
+    <Compile Include="Challenges\NextGameOfLifeTests.cs" />
     <Compile Include="Challenges\NextSquareTests.cs" />
     <Compile Include="Challenges\NotIndexOfTests.cs" />
     <Compile Include="Challenges\NumberSystemTests.cs" />
@@ -259,6 +260,7 @@
     <Compile Include="InterviewPractice\GroupingDishesTests.cs" />
     <Compile Include="InterviewPractice\InnerRangesTests.cs" />
     <Compile Include="InterviewPractice\IsCryptSolutionTests.cs" />
+    <Compile Include="InterviewPractice\LargestValuesInTreeRowsTests.cs" />
     <Compile Include="InterviewPractice\LongestPathTests.cs" />
     <Compile Include="InterviewPractice\MatrixElementsInSpiralOrderTests.cs" />
     <Compile Include="InterviewPractice\MissingNumberTests.cs" />
