@@ -19,7 +19,7 @@ namespace CodeFights.CSharp.InterviewPractice
         /// <summary>
         /// A binary tree node.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="T">The type of elements in the tree.</typeparam>
         public class Tree<T>
         {
             /// <summary>
