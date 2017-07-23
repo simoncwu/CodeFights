@@ -114,6 +114,7 @@
     <Compile Include="Challenges\KuromasuPuzzle.cs" />
     <Compile Include="Challenges\LeastTiles.cs" />
     <Compile Include="Challenges\LongestConsecutive.cs" />
+    <Compile Include="Challenges\MagicParade1.cs" />
     <Compile Include="Challenges\MagicSquare3by3.cs" />
     <Compile Include="Challenges\MaxDiscount.cs" />
     <Compile Include="Challenges\MaxVassal.cs" />
