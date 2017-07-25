@@ -202,6 +202,7 @@
     <Compile Include="Challenges\Reverse\OrezRoEnoTests.cs" />
     <Compile Include="Challenges\Reverse\PoweryTests.cs" />
     <Compile Include="Challenges\Reverse\ProductTests.cs" />
+    <Compile Include="Challenges\Reverse\RaiseItTests.cs" />
     <Compile Include="Challenges\Reverse\ReverseChallengeTests.cs" />
     <Compile Include="Challenges\Reverse\ReversesreveRChallengeTests.cs" />
     <Compile Include="Challenges\Reverse\RightGuyTests.cs" />

@@ -215,6 +215,7 @@
     <Compile Include="Challenges\Reverse\OrezRoEno.cs" />
     <Compile Include="Challenges\Reverse\Powery.cs" />
     <Compile Include="Challenges\Reverse\Product.cs" />
+    <Compile Include="Challenges\Reverse\RaiseIt.cs" />
     <Compile Include="Challenges\Reverse\ReverseChallenge.cs" />
     <Compile Include="Challenges\Reverse\ReversesreveRChallenge.cs" />
     <Compile Include="Challenges\Reverse\RightGuy.cs" />
