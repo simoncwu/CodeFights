@@ -119,6 +119,7 @@
     <Compile Include="Challenges\MaxDiscountTests.cs" />
     <Compile Include="Challenges\MaxVassalTests.cs" />
     <Compile Include="Challenges\MazeEscapeTests.cs" />
+    <Compile Include="Challenges\Minesweeper1Tests.cs" />
     <Compile Include="Challenges\ModuloHarshadTests.cs" />
     <Compile Include="Challenges\NewBinaryTests.cs" />
     <Compile Include="Challenges\NextGameOfLifeTests.cs" />
