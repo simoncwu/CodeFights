@@ -62,11 +62,13 @@
     <Compile Include="Challenges\AreTrianglesSimilarTests.cs" />
     <Compile Include="Challenges\BitsTests.cs" />
     <Compile Include="Challenges\BookKeeperChallengeTests.cs" />
+    <Compile Include="Challenges\CalculateNetworkAddressTests.cs" />
     <Compile Include="Challenges\CalendarTests.cs" />
     <Compile Include="Challenges\CandyCrush1Tests.cs" />
     <Compile Include="Challenges\CandyCrush2Tests.cs" />
     <Compile Include="Challenges\CardsTests.cs" />
     <Compile Include="Challenges\CaucusRaceTests.cs" />
+    <Compile Include="Challenges\ChainReaction1Tests.cs" />
     <Compile Include="Challenges\ChangeOfVowelsInCycleTests.cs" />
     <Compile Include="Challenges\CharWeightTests.cs" />
     <Compile Include="Challenges\ChecksumPart1Tests.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="Challenges\ChickenNuggetNumberTests.cs" />
     <Compile Include="Challenges\ClockRadianTests.cs" />
     <Compile Include="Challenges\CodeGolfReducedScoreTests.cs" />
+    <Compile Include="Challenges\CodeObfuscationTests.cs" />
     <Compile Include="Challenges\ConsecutiveBitTests.cs" />
     <Compile Include="Challenges\ConvertStringTests.cs" />
     <Compile Include="Challenges\CoolSubsetsTests.cs" />
@@ -89,6 +92,7 @@
     <Compile Include="Challenges\DigitSumInverseTests.cs" />
     <Compile Include="Challenges\EndianWarTests.cs" />
     <Compile Include="Challenges\FactororTests.cs" />
+    <Compile Include="Challenges\FaroShufflesChallengeTests.cs" />
     <Compile Include="Challenges\FermactorTests.cs" />
     <Compile Include="Challenges\FibonacciWordTests.cs" />
     <Compile Include="Challenges\FillByPowersTests.cs" />
@@ -98,6 +102,7 @@
     <Compile Include="Challenges\GetGiraffeNumbersTests.cs" />
     <Compile Include="Challenges\GetImprovementPercentagesTests.cs" />
     <Compile Include="Challenges\GetTemperatureInfoTests.cs" />
+    <Compile Include="Challenges\GoldTests.cs" />
     <Compile Include="Challenges\GoodSetTests.cs" />
     <Compile Include="Challenges\GrawgAndLawgTests.cs" />
     <Compile Include="Challenges\HasPalindromicAnagramTests.cs" />
@@ -112,6 +117,7 @@
     <Compile Include="Challenges\IsValidNumberTests.cs" />
     <Compile Include="Challenges\KthBoringTests.cs" />
     <Compile Include="Challenges\KuromasuPuzzleTests.cs" />
+    <Compile Include="Challenges\LazyBeaverTests.cs" />
     <Compile Include="Challenges\LeastTilesTests.cs" />
     <Compile Include="Challenges\LongestConsecutiveTests.cs" />
     <Compile Include="Challenges\MagicParade1Tests.cs" />
@@ -120,6 +126,7 @@
     <Compile Include="Challenges\MaxVassalTests.cs" />
     <Compile Include="Challenges\MazeEscapeTests.cs" />
     <Compile Include="Challenges\Minesweeper1Tests.cs" />
+    <Compile Include="Challenges\Minesweeper2Tests.cs" />
     <Compile Include="Challenges\ModuloHarshadTests.cs" />
     <Compile Include="Challenges\NewBinaryTests.cs" />
     <Compile Include="Challenges\NextGameOfLifeTests.cs" />
@@ -154,6 +161,7 @@
     <Compile Include="Challenges\CodefightsTournamentTests.cs" />
     <Compile Include="Challenges\ContinuedFractionProductTests.cs" />
     <Compile Include="Challenges\ConvertIPv4Tests.cs" />
+    <Compile Include="Challenges\Reverse\BuildSumTests.cs" />
     <Compile Include="Challenges\Reverse\CDroidTests.cs" />
     <Compile Include="Challenges\Reverse\CountDsTests.cs" />
     <Compile Include="Challenges\Reverse\CountItTests.cs" />
@@ -164,6 +172,7 @@
     <Compile Include="Challenges\FindClosestPointWithInclinationChallengeTests.cs" />
     <Compile Include="Challenges\Reverse\DecryptionTests.cs" />
     <Compile Include="Challenges\Reverse\DimTests.cs" />
+    <Compile Include="Challenges\Reverse\EightTailorsTests.cs" />
     <Compile Include="Challenges\Reverse\FindColumnNameChallengeTests.cs" />
     <Compile Include="Challenges\FindOnlyDiffCharTests.cs" />
     <Compile Include="Challenges\FindOperationTests.cs" />
@@ -188,6 +197,7 @@
     <Compile Include="Challenges\Reverse\ImagineTests.cs" />
     <Compile Include="Challenges\Reverse\IScreamTests.cs" />
     <Compile Include="Challenges\Reverse\LeftoverTests.cs" />
+    <Compile Include="Challenges\Reverse\ListToStringTests.cs" />
     <Compile Include="Challenges\Reverse\LucasTests.cs" />
     <Compile Include="Challenges\Reverse\MeaningOfLifeTests.cs" />
     <Compile Include="Challenges\Reverse\NavChallengeTests.cs" />
@@ -210,6 +220,7 @@
     <Compile Include="Challenges\Reverse\ToBeContinuedTests.cs" />
     <Compile Include="Challenges\Rgb2HsvTests.cs" />
     <Compile Include="Challenges\RobotFunctionTests.cs" />
+    <Compile Include="Challenges\RotateArrayFromIndexTests.cs" />
     <Compile Include="Challenges\RowReductionChallengeTests.cs" />
     <Compile Include="Challenges\RubixCubeTests.cs" />
     <Compile Include="Challenges\SafeSystemTests.cs" />
