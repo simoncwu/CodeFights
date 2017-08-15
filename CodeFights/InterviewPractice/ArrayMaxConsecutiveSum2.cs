@@ -9,6 +9,7 @@ namespace CodeFights.CSharp.InterviewPractice
     /// <summary>
     /// Solution to CodeFights interview practice "arrayMaxConsecutiveSum2": 
     /// https://codefights.com/interview-practice/task/dQD4TCunke2JQ98rj
+    /// Asked By: Microsoft, LinkedIn, Amazon, Samsung
     /// 
     /// Given an array of integers, find the maximum possible sum of a 
     /// contiguous subarray with at lesat 1 element.
