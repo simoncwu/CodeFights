@@ -88,8 +88,10 @@
     <Compile Include="Challenges\CrazyCloverTests.cs" />
     <Compile Include="Challenges\DanceStepsTests.cs" />
     <Compile Include="Challenges\DDeltaTests.cs" />
+    <Compile Include="Challenges\DerangedTests.cs" />
     <Compile Include="Challenges\DerivativeTests.cs" />
     <Compile Include="Challenges\DigitSumInverseTests.cs" />
+    <Compile Include="Challenges\DinerTablesTests.cs" />
     <Compile Include="Challenges\EndianWarTests.cs" />
     <Compile Include="Challenges\FactororTests.cs" />
     <Compile Include="Challenges\FaroShufflesChallengeTests.cs" />
@@ -119,6 +121,7 @@
     <Compile Include="Challenges\KuromasuPuzzleTests.cs" />
     <Compile Include="Challenges\LazyBeaverTests.cs" />
     <Compile Include="Challenges\LeastTilesTests.cs" />
+    <Compile Include="Challenges\LogParseTests.cs" />
     <Compile Include="Challenges\LongestConsecutiveTests.cs" />
     <Compile Include="Challenges\MagicParade1Tests.cs" />
     <Compile Include="Challenges\MagicSquare3by3Tests.cs" />
@@ -197,6 +200,7 @@
     <Compile Include="Challenges\Reverse\ImagineTests.cs" />
     <Compile Include="Challenges\Reverse\IScreamTests.cs" />
     <Compile Include="Challenges\Reverse\LeftoverTests.cs" />
+    <Compile Include="Challenges\Reverse\LineSumTests.cs" />
     <Compile Include="Challenges\Reverse\ListToStringTests.cs" />
     <Compile Include="Challenges\Reverse\LucasTests.cs" />
     <Compile Include="Challenges\Reverse\MeaningOfLifeTests.cs" />
@@ -267,11 +271,15 @@
     <Compile Include="HeadToHead\ChessBoardSquaresUnderQueenAttackTests.cs" />
     <Compile Include="InterviewPractice\AmendTheSentenceTests.cs" />
     <Compile Include="InterviewPractice\AreFollowingPatternsTests.cs" />
+    <Compile Include="InterviewPractice\ArrayMaxConsecutiveSum2Tests.cs" />
     <Compile Include="InterviewPractice\ClassifyStringsTests.cs" />
     <Compile Include="InterviewPractice\ContainsCloseNumsTests.cs" />
     <Compile Include="InterviewPractice\ContainsDuplicatesTests.cs" />
+    <Compile Include="InterviewPractice\DigitTreeSumTests.cs" />
+    <Compile Include="InterviewPractice\FindLongestSubarrayBySumTests.cs" />
     <Compile Include="InterviewPractice\FirstDuplicateTests.cs" />
     <Compile Include="InterviewPractice\FirstNotRepeatingCharacterTests.cs" />
+    <Compile Include="InterviewPractice\GraphDistancesTests.cs" />
     <Compile Include="InterviewPractice\GroupingDishesTests.cs" />
     <Compile Include="InterviewPractice\InnerRangesTests.cs" />
     <Compile Include="InterviewPractice\IsCryptSolutionTests.cs" />

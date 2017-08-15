@@ -87,8 +87,10 @@
     <Compile Include="Challenges\CrazyClover.cs" />
     <Compile Include="Challenges\DanceSteps.cs" />
     <Compile Include="Challenges\DDelta.cs" />
+    <Compile Include="Challenges\Deranged.cs" />
     <Compile Include="Challenges\Derivative.cs" />
     <Compile Include="Challenges\DigitSumInverse.cs" />
+    <Compile Include="Challenges\DinerTables.cs" />
     <Compile Include="Challenges\EndianWar.cs" />
     <Compile Include="Challenges\Extrapolation.cs" />
     <Compile Include="Challenges\Factoror.cs" />
@@ -119,6 +121,7 @@
     <Compile Include="Challenges\KuromasuPuzzle.cs" />
     <Compile Include="Challenges\LazyBeaver.cs" />
     <Compile Include="Challenges\LeastTiles.cs" />
+    <Compile Include="Challenges\LogParse.cs" />
     <Compile Include="Challenges\LongestConsecutive.cs" />
     <Compile Include="Challenges\MagicParade1.cs" />
     <Compile Include="Challenges\MagicSquare3by3.cs" />
@@ -199,6 +202,7 @@
     <Compile Include="Challenges\Reverse\Imagine.cs" />
     <Compile Include="Challenges\Reverse\IScream.cs" />
     <Compile Include="Challenges\Reverse\Leftover.cs" />
+    <Compile Include="Challenges\Reverse\LineSum.cs" />
     <Compile Include="Challenges\Reverse\ListToString.cs" />
     <Compile Include="Challenges\Reverse\Lucas.cs" />
     <Compile Include="Challenges\Reverse\MeaningOfLife.cs" />
@@ -287,11 +291,15 @@
     <Compile Include="HeadToHead\ChessBoardSquaresUnderQueenAttack.cs" />
     <Compile Include="InterviewPractice\AmendTheSentence.cs" />
     <Compile Include="InterviewPractice\AreFollowingPatterns.cs" />
+    <Compile Include="InterviewPractice\ArrayMaxConsecutiveSum2.cs" />
     <Compile Include="InterviewPractice\ClassifyStrings.cs" />
     <Compile Include="InterviewPractice\ContainsCloseNums.cs" />
     <Compile Include="InterviewPractice\ContainsDuplicates.cs" />
+    <Compile Include="InterviewPractice\DigitTreeSum.cs" />
+    <Compile Include="InterviewPractice\FindLongestSubarrayBySum.cs" />
     <Compile Include="InterviewPractice\FirstDuplicate.cs" />
     <Compile Include="InterviewPractice\FirstNotRepeatingCharacter.cs" />
+    <Compile Include="InterviewPractice\GraphDistances.cs" />
     <Compile Include="InterviewPractice\GroupingDishes.cs" />
     <Compile Include="InterviewPractice\InnerRanges.cs" />
     <Compile Include="InterviewPractice\IsCryptSolution.cs" />
